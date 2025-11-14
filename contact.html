@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Contact — MiniShop</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="navbar container">
+      <div class="logo">MiniShop</div>
+      <button class="menu-btn">☰</button>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="cart.html">Cart <span class="cart-count" style="font-weight:600; margin-left:6px">0</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <a class="back-top-left" onclick="history.back()">← Back</a>
+
+    <h1>Contact Us</h1>
+    <form id="contact-form">
+      <div class="field">
+        <label for="contact-name">Name</label>
+        <input id="contact-name" required>
+      </div>
+      <div class="field">
+        <label for="contact-email">Email</label>
+        <input id="contact-email" type="email" required>
+      </div>
+      <div class="field">
+        <label for="contact-msg">Message</label>
+        <textarea id="contact-msg" rows="5" required></textarea>
+      </div>
+      <button class="btn" type="submit">Send Message</button>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <div class="container">MiniShop — Demo project</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
