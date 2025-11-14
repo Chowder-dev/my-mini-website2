@@ -3,7 +3,7 @@
 :root{
   --primary: #1E88E5;
   --accent: #FFC107;
-  --bg: url("assets/images/bgjekjek.jpeg");
+  --bg: url("bgjekjek.jpeg");
   --text: #222;
   --card: #fff;
 }
@@ -153,4 +153,5 @@ input[type="text"], input[type="email"], textarea, select {
 .back-top-left:hover {
   opacity: 0.85;
 }
+
 
