@@ -5,7 +5,7 @@
    id must be unique strings or numbers.
 --------------------------------------------*/
 const PRODUCTS = [
-  {id: "1", title: "Blue Hoodie", price: 799, img: "assets/images/product1.jpg", desc: "Comfortable cotton hoodie."},
+  {id: "1", title: "Blue Hoodie", price: 799, img: "product1.jpg", desc: "Comfortable cotton hoodie."},
   {id: "2", title: "White Sneaker", price: 1299, img: "assets/images/product2.jpg", desc: "Lightweight casual sneakers."},
   {id: "3", title: "Smart Watch", price: 2499, img: "assets/images/product3.jpg", desc: "Track your fitness and notifications."},
   {id: "4", title: "Backpack", price: 899, img: "assets/images/product4.jpg", desc: "Durable backpack with laptop sleeve."},
@@ -195,3 +195,4 @@ document.addEventListener("DOMContentLoaded", ()=>{
     });
   }
 });
+
